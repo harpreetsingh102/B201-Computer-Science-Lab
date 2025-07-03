@@ -1,0 +1,94 @@
+/* Color Theme: Warm Yellow and Light Orange */
+:root {
+  --primary: #f7c548;
+  --secondary: #ffe8b5;
+  --accent: #f08a24;
+  --text: #333;
+  --bg: #fffef8;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+  margin: 0;
+  color: var(--text);
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--primary);
+  color: #000;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav {
+  background-color: var(--accent);
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: var(--accent);
+  margin-top: 40px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--primary);
+  color: #000;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
